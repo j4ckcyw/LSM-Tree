@@ -16,7 +16,6 @@ const (
 
 type DiskFile struct {
   index *TreeNode
-  data io.ReadSeeker
   size int
   buf bytes.Buffer
 }
